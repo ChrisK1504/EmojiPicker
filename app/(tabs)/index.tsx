@@ -10,6 +10,8 @@ const PlaceholderImage = require('@/assets/images/background-image.png');
 
 export default function Index() {
   const [selectedImage, setSelectedImage] = useState<string | undefined>(undefined);
+  const [showAppOptions, setShowAppOptions] = useState<boolean>(false);
+
   const pickImageAsynch = async () => {
     let result = await ImagePicker.launchImageLibraryAsync({
       allowsEditing: true,
@@ -27,10 +29,14 @@ export default function Index() {
       <View style={styles.imageContainer}>
         <ImageViewer imgSource={PlaceholderImage} selectedImage={selectedImage} />
       </View>
-      <View style={styles.footerContainer}>
-        <Button onPress={pickImageAsynch} theme="primary" label="Choose a photo" />
-        <Button label="Use this photo" />
-      </View>
+      {showAppOptions ? (
+        <View />
+      ) : (
+        <View style={styles.footerContainer}>
+          <Button onPress={pickImageAsynch} theme="primary" label="Choose a photo" />
+          <Button label="Use this photo" onPress={() => setShowAppOptions(true)} />
+        </View>
+      )}
     </View>
   );
 }
