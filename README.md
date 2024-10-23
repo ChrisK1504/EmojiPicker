@@ -1,50 +1,53 @@
-# Welcome to your Expo app 👋
+---
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Project Name: Mockup Iphone Website
 
-## Get started
+## Description
+"Emoji Enhancer" is a fun and simple app that lets you personalize your gallery photos by adding your favorite emojis. Choose any picture from your gallery, drag and drop emojis onto it, resize them, and save your newly enhanced creations with just a tap. Perfect for adding a touch of fun and expression to your photos! 
 
-1. Install dependencies
+## Technologies
+This is a React Native-powered app that allows you to add emojis to your gallery photos with ease. Built for both iOS and Android, this cross-platform app lets you select images from your gallery, overlay emojis, customize their size and position, and save the updated photos directly to your device. Third-party components, such as GestureHandler, Animated and Pressable, were used to enable this type of functionality. Android Studio was used throughout the development process to acitvely simulate the app on both iOS and Android.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## Prerequisites
+- A web browser, if you want to view the app through the web.
+- An android or ios device, if you want to use the app natively.
+   - Expo Go needs to be installed in your device for this case.
+- Android Studio, if you want to simulate the app on your PC or laptop device.
 
-   ```bash
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/ChrisK1504/EmojiPicker
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd EmojiPicker
+    ```
+
+## Usage
+1. Run the application:
+    ```bash
     npx expo start
-   ```
+    ```
+2. Follow the prompts if you want to simulate the app on a device of your choice.
+3. Scan the QR code (Through Expo Go) to open the app natively on your mobile device.
+4. The application will be hosted on `http://localhost:8081`, if you want to view it on your web browser.
 
-In the output, you'll find options to open the app in a
+## Dependencies
+The project uses the following dependencies:
+- React-native
+- Node.js
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Some screenshots of the website:
+## Main Screen:
+<img width="380" alt="main_screen" src="https://github.com/user-attachments/assets/a0954396-751e-4967-a1dd-d2f986b156c2">
 
-## Get a fresh project
+## Emoji Picker Screen:
+<img width="380" alt="emoji_screen" src="https://github.com/user-attachments/assets/cad58ee5-a6ff-4bf5-a766-79202ae2f527">
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
