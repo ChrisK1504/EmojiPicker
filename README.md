@@ -1,9 +1,9 @@
 ---
 
-# Project Name: Mockup Iphone Website
+# Project Name: StickerSmash
 
 ## Description
-"Emoji Enhancer" is a fun and simple app that lets you personalize your gallery photos by adding your favorite emojis. Choose any picture from your gallery, drag and drop emojis onto it, resize them, and save your newly enhanced creations with just a tap. Perfect for adding a touch of fun and expression to your photos! 
+"StickerSmash" is a fun and simple app that lets you personalize your gallery photos by adding your favorite emojis. Choose any picture from your gallery, drag and drop emojis onto it, resize them, and save your newly enhanced creations with just a tap. Perfect for adding a touch of fun and expression to your photos! 
 
 ## Technologies
 This is a React Native-powered app that allows you to add emojis to your gallery photos with ease. Built for both iOS and Android, this cross-platform app lets you select images from your gallery, overlay emojis, customize their size and position, and save the updated photos directly to your device. Third-party components, such as GestureHandler, Animated and Pressable, were used to enable this type of functionality. Android Studio was used throughout the development process to acitvely simulate the app on both iOS and Android.
